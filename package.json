@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "show": "npx webpack && xdg-open index.html"
+    "build": "npx webpack",
+    "show": "npm run build && xdg-open index.html"
   },
   "author": "",
   "license": "ISC",
