@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx webpack",
-    "show": "npm run build && xdg-open index.html"
+    "preview": "npm run build && xdg-open index.html"
   },
   "author": "",
   "license": "ISC",

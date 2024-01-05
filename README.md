@@ -8,7 +8,11 @@ It uses Webpack, TypeScript and Babel. After a build, the file
 
 ## Build
 To build this web app, `cd` into the project root and run:
-
 ```shell
-npm i && npm run show
+npm i && npm run build
+```
+
+If you want to preview this app, run:
+```shell
+npm run preview
 ```
